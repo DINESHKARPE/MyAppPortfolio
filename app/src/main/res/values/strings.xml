@@ -2,6 +2,9 @@
     <string name="app_name">My App Portfolio</string>
     <string name="action_settings">Settings</string>
 
+    <!-- Home activity top lable-->
+
+    <string name="home_activity_top_lable">My Nanodegree Apps!</string>
     <!--App Names-->
 
     <string name="spotify_stremer">SPOTIFY STREAMER</string>

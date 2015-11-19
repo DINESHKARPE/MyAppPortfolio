@@ -43,22 +43,22 @@ public class MyAppPortfolio extends AppCompatActivity {
 
     public void sendMessage(View view) {
         switch (view.getId()) {
-            case R.id.button:
+            case R.id.spotifyStremer:
                 Toast.makeText(getApplicationContext(),"This button will launch Spotify Streamer",Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.button2:
+            case R.id.scoresApp:
                 Toast.makeText(getApplicationContext(),"This button will launch Scores App",Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.button3:
+            case R.id.libraryApp:
                 Toast.makeText(getApplicationContext(),"This button will launch Library App",Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.button4:
+            case R.id.buildItBigger:
                 Toast.makeText(getApplicationContext(),"This button will launch Build It Bigger",Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.button5:
+            case R.id.xyzReader:
                 Toast.makeText(getApplicationContext(),"This button will launch XYZ Reader",Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.button6:
+            case R.id.myOwnApp:
                 Toast.makeText(getApplicationContext(),"This button will launch Capstone: my own app",Toast.LENGTH_SHORT).show();
                 break;
         }

@@ -14,4 +14,25 @@
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="HomeActivityButton" parent="android:Widget.Button">
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:background">@color/colorAppButton</item>
+        <item name="android:onClick">sendMessage</item>
+
+        <item name="android:layout_width">wrap_content</item>
+
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:layout_alignParentStart">true</item>
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentStart="true"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_alignParentEnd="true"-->
+            <!--android:layout_marginTop="10dp"-->
+    </style>
+
+    <style name="NanoDegreeTheme">
+        <item name="android:buttonStyle">@style/HomeActivityButton</item>
+    </style>
 </resources>
